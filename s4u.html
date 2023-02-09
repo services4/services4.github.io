@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="contact-right">
-                    <form action="https://formsubmit.co/servicesforyou.contact@gmail.com" method="POST"> <!-- onsubmit="sendEmail(); reset(); return false;"-->
+                    <form action="https://formsubmit.co/1fc90fe634477d2d407a93637b4b2778" method="POST"> <!-- onsubmit="sendEmail(); reset(); return false;"-->
                             <input type="text" name="nom" placeholder="Nom" required>
                             <input type="email" name="mail" placeholder="Votre Email" required>
                             <textarea name="message" placeholder="Message"></textarea>                        
@@ -229,25 +229,7 @@
 
     </script>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>  
-    <script>
-        function sendEmail(){
-            Email.send({
-                secureToken : "5e37f5df-af55-408a-b999-512b8ace9706",
-                Host : "smtp.elasticemail.com",
-                Username : "servicesforyou.contact@gmail.com",
-                Password : "101F2ABFA8F9FABF4371678332C9F2168C28",
-                To : 'badragrad@gmail.com',
-                From : document.getElementById("mail").value,
-                Subject : "Une personne veut vous contacter ! ",
-                Body : "Name :" + document.getElementById("nom").value  
-                        + "<br> Email :" + document.getElementById("mail").value
-                        + "<br> Message :" + document.getElementById("message").value
-            }).then(
-            message => alert(message)
-            );
-        }
-    </script>  
+    
 
 
 
