@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Badr Agrad S4U">
+        <meta name="keywords" content="développement Web, html, css, php, javascript, wordpress">
+        <title>S4U.</title>
+        <link rel="stylesheet" href="style2.css"> 
+        <script src="https://kit.fontawesome.com/927b94a7cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/a.png" class="logo">
+                <ul id ="sidemenu">
+                    <li><a href="#header">Menu</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projet">Offres</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Développez votre entreprise...</p>
+                <h1>Soyez aux frontières <span>technologiques</span></h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------- about ----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ordi.JPG" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Qui sommes nous ?</h1>
+                    <br>
+                    <p>     A l’ère du numérique, il est fondamental de disposer d’une présence sur internet. 
+                        Peu importe la taille de votre entreprise, avoir un site web est primordial. 
+                        Cela vous permettra non seulement de renforcer votre image professionnelle mais également d’acquérir de nouveaux prospects sans contrainte géographique. 
+                        Et parce que 53% des internautes consultent internet, quotidiennement, depuis leur smartphone, il est essentiel d’avoir une version mobile de son site web.
+                        <br><br>
+
+                        Notre agence est spécialisée dans la création de site web vitrine sur mesure et
+                        offre des stratégies de communications aux entreprises qui s'adaptent aux différents besoins.<br>
+                        Notre promesse ? Vous offrir un site à l’image de votre entreprise tout en respectant sa charte, ses codes et de satisfaire les futurs clients. 
+                        Nous disposons d’une équipe de développeurs talentueux et expérimentés.
+                        Notre agence accompagne les entrepreneurs, quel que soit leur statut, dans la digitalisation de leurs entreprise, permettant de viser un public plus large. 
+                        Que vous soyez en cours de création de société où déjà immatriculé, services for you saura vous garantir un travail de qualité.<br>
+                        
+                        
+                        </p>
+
+                        <div class="tab-titles">
+                            <p  class="tab-links active-link" onclick="opentab('skills')">Nos compétences</p>
+                            <p  class="tab-links" onclick="opentab('experience')">Nos projets</p>
+                            <!-- <p  class="tab-links" onclick="opentab('education')">Etudes</p> -->
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>@</span><br>Développement d'un site web répondant à vos besoins</li>
+                                <li><span>@</span><br>Création d'un design accrocheuer</li>
+                                <li><span>@</span><br>Gestion de base de données</li>
+                                <li><span>@</span><br>Hebergement de votre site et suivi</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>#</span><br>Développement d'une jeu d'échec (C)</li>
+                                <li><span>#</span><br>Développement d'une intelligence artificielle jouant aux échecs (C)</li>
+                                <li><span>#</span><br>Développement d'un systeme de chiffrement RSA (C)</li>
+                            </ul>
+                        </div>
+
+                   
+
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+   <!-- ------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Nos services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Developpement Web</h2>
+                    <p>
+                        Nous nous chargons de la conception de votre site web vitrine, de son design et de son hébèrgement en ligne.
+                        
+                    </p>
+                        <a href="#projet">en savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-wrench"></i>
+                    <h2>Mise à jour et suivi</h2>
+                    <p>
+                        Nous mettons à jour régulièrement votre site web selos vos besoins  </p>
+                        <a href="#projet">en savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- Projet ------------>
+    <div id="projet">
+        <div class="container">
+            <div class="row">
+                <div class="projet-site">
+                    <img src="images/site.jpeg" >
+                    <div class="layer">
+                        <h3>Envoyez votre requete dès maintenant !</h3>
+                        <a href="mailto:servicesforyou.contact@gmail.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Nos offres</h1>
+                    <br>
+                    <p><h2>Conception de site web</h2>
+                        <br>
+                       
+                        Nous sommes spécialisé dans la conception de site web vitrine. Ainsi, votre site sera un moyen de presenter vos offres et services.
+                        Lors de notre premier rendez-vous, nous vous présenterons nos réalisations et nous nous adapterons à votre budget et à vos souhaits.<br>
+                        D'une part, nous créerons une maquette graphique de votre site web, afin d'avoir un design qui vous correspond. 
+                        Si cela vous convient, nous procederons alors au développement du site puis à son hebergement en ligne. 
+                        Nous disposons de différentes gammes d'offres, variant selon vos attentes (design, référencement, options, animations...) et votre budget. 
+                        
+                        <br><br>
+                        <h2>Mises à jour</h2>
+                        <br>
+                        Une fois la mise en ligne de votre site web, nous nous engageons à garder contact avec vous afin de pouvoir procéder à un suivi.
+                        De ce fait, le site pourra être mis à jour régulièrement.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h3>N'hesitez plus, passez le pas !</h3>
+
+
+                    </p>
+
+                       
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- --------- contact ------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Nous contacter</h1>
+                    <p><i class="fa-regular fa-envelope"></i>servicesforyou.contact@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/s4u-services-for-you-1168b6263/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/servicesforyou.contact@gmail.com" method="POST"> <!-- onsubmit="sendEmail(); reset(); return false;"-->
+                            <input type="text" name="nom" placeholder="Nom" required>
+                            <input type="email" name="mail" placeholder="Votre Email" required>
+                            <textarea name="message" placeholder="Message"></textarea>                        
+                            <button type="submit" class="btn btn2">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="copyright">
+                    <p>Copyright S4U.</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>    
+    
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu"); 
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script>
+        function sendEmail(){
+            Email.send({
+                secureToken : "5e37f5df-af55-408a-b999-512b8ace9706",
+                Host : "smtp.elasticemail.com",
+                Username : "servicesforyou.contact@gmail.com",
+                Password : "101F2ABFA8F9FABF4371678332C9F2168C28",
+                To : 'badragrad@gmail.com',
+                From : document.getElementById("mail").value,
+                Subject : "Une personne veut vous contacter ! ",
+                Body : "Name :" + document.getElementById("nom").value  
+                        + "<br> Email :" + document.getElementById("mail").value
+                        + "<br> Message :" + document.getElementById("message").value
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>  
+
+
+
+
+
+
+    
+
+
+    </body>
+</html>
