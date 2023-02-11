@@ -78,6 +78,19 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    animation: apparition 0.8s ease-out; 
+}
+
+@keyframes apparition {
+    from{
+        opacity: 0;
+        transorm: translateY(-100px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0px);
+    }
+    
 }
 
 .header-text h1 span{
