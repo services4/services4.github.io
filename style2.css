@@ -23,6 +23,11 @@ body{
   }
 }
 
+.fade-in-text2 {
+  opacity: 0;
+  animation: fade-in 3s forwards;
+}
+
 
 html{
     scroll-behavior:smooth;
