@@ -72,13 +72,14 @@ nav ul li a:hover::after{
 .header-text{
     margin-top:20%;
     font-size: 30px; 
+    animation: apparition 0.8s ease-out;
 
 }
 
 .header-text h1{
     font-size: 60px;
-    margin-top: 20px;
-    animation: apparition 0.8s ease-out; 
+    margin-top: 20px; 
+    animation: apparition 1.5s ease-out;
 }
 
 @keyframes apparition {
